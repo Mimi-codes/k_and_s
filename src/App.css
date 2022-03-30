@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&family=Atma&family=Cookie&family=Lobster+Two:ital@1&family=Montserrat:wght@100&family=Roboto:ital,wght@0,100;1,100&family=Shadows+Into+Light&family=Short+Stack&display=swap');
+
+
+body {
+  background-image: url('../src/assets/henry-co-tqu0IOMaiU8-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Antic Slab', serif;
+font-family: 'Atma', cursive;
+font-family: 'Cookie', cursive;
+font-family: 'Lobster Two', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Shadows Into Light', cursive;
+font-family: 'Short Stack', cursive;
+}
+
+

@@ -1,0 +1,59 @@
+.hero {
+    background-image: url('../../assets/blurred/imageonline-co-blurimage.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.hero-content {
+    display: flex;
+    margin-top: 4rem;
+}
+
+.brand-description {
+    margin-left: 4rem;
+}
+
+.perfect {
+    color: rgb(85, 30, 4);
+    font-size: 3.5rem;
+}
+
+.brand-description-paragraph {
+    font-size: 1.3rem;
+    color: rgb(73, 73, 73);
+}
+
+/*MEDIA QUERY*/
+
+/*Mobile*/
+
+@media only screen and (max-width: 480px) {
+.hero {
+    overflow-x: hidden;
+}
+
+
+    .hero-content {
+        display: block;
+        margin-top: -2rem;
+    }
+
+    .brand-description {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .brand-description-paragraph {
+        margin-left:0.5rem;
+        margin-right: 0.5rem;
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .perfect {
+          font-size: 1.4rem;
+    }
+
+}
