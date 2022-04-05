@@ -1,14 +1,23 @@
 
 
-.recipe-list {
-    list-style: none;
-}
-
-
-ul {
+.recipe-items {
     display: flex;
 }
 
+
+/* ul { */
+    /* display: flex; */
+/* } */
+
 ul li {
-    list-style: none;
+    list-style-type: none;
+}
+
+.body {
+    background: rgb(255, 254, 254);
+    text-align: center;
+}
+
+.img-holder {
+    width: 100%;
 }
