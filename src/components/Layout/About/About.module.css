@@ -1,0 +1,36 @@
+.about-content {
+    display: flex;
+    margin-top: 8rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.hr {
+    width: 2rem;
+    height: 0.2rem;
+    background-color: rgb(190, 16, 16);
+    color: red;
+    border-style: none;
+    position: absolute;
+    left: 44.8rem;
+}
+
+.about-text {
+    margin-left: 9rem;
+    margin-right: 9rem;
+}
+
+.about-para {
+    text-transform: uppercase;
+    color: rgba(129, 55, 21, 0.808);
+    font-size: 1.3rem;
+}
+
+ .about-text-header {
+    font-size: 3rem;
+    color: rgb(85, 30, 4);
+}
+
+.about-text-para {
+    font-size: 1.3rem;
+    color: rgb(73, 73, 73);
+}

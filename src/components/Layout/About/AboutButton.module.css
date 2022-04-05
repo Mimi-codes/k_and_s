@@ -1,0 +1,37 @@
+.about-btn {
+    text-transform: uppercase;
+    padding: 1.5rem;
+    color: white;
+    background: rgb(131, 44, 4);
+    border-style: none;
+    margin-top: 2rem;
+}
+
+.arrow {
+    font-size: 1.2rem;
+    background: rgb(247, 224, 202);
+    padding: 1.4rem;
+    position: absolute;
+    top: 69.6rem;
+}
+
+
+
+/*MEDIA QUERY*/
+
+/*Mobile*/
+
+@media only screen and (max-width: 480px) {
+
+    .about-btn {
+        padding: 0.5rem;
+    }
+    
+    .arrow {
+        font-size: 1.2rem;
+        padding: 0.4rem;
+        position: absolute;
+        top: 34.79rem;
+    }
+
+}

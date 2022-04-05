@@ -1,11 +1,16 @@
 
 import './App.css';
-import HeroSection from './components/Layout/HeroSection';
+import About from './components/Layout/About/About';
+import HeroSection from './components/Layout/HeroSection/HeroSection';
+import Recipe from './components/Layout/Recipe/Recipe';
+
 
 function App() {
   return (
     <>
     <HeroSection />
+    <About />
+    <Recipe />
     </>
   );
 }

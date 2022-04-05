@@ -1,7 +1,7 @@
 import classes from './NavBar.module.css';
 import {AiOutlineUser} from 'react-icons/ai'
  import {BsHandbag} from 'react-icons/bs'
-import Badge from './Badge';
+import Badge from '../NavBar/Badge';
 
 const NavBar = () => {
 const svgStyle = {fontSize: '1.3rem'}

@@ -1,13 +1,17 @@
 import classes from './HeroSection.module.css';
-import HeroSectionButton from './HeroSectionButton';
-import HeroSectionImage from './HeroSectionImage';
-import NavBar from './NavBar';
+import HeroSectionButton from '../HeroSection/HeroSectionButton';
+import HeroSectionCarousel from './HeroSectionCarousel';
+import HeroSectionImage from '././HeroSectionImage';
+import HeroSectionSvg from './HeroSectionSvg';
+import NavBar from '../NavBar/NavBar';
+
 
 const HeroSection = () => {
     return (
         <>
         <div className={classes.hero}>
         <NavBar />
+        {/* <HeroSectionCarousel /> */}
 <div className={classes['hero-content']}>
     <div className={classes['brand-description']}>
     <h2 className={classes.perfect}>The perfect cake every time!</h2>
@@ -17,6 +21,7 @@ const HeroSection = () => {
 <HeroSectionImage />
 </div>
         </div>
+        {/* <HeroSectionSvg /> */}
         </>
     )
 }

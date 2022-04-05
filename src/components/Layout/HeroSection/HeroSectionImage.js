@@ -1,5 +1,5 @@
 import classes from './HeroSectionImage.module.css';
-import heroSectionImg from '../../assets/choc-cake.png';
+import heroSectionImg from '../../../assets/choc-cake.png';
 
 const HeroSectionImage = () => {
     return (

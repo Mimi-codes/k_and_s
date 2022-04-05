@@ -1,0 +1,14 @@
+
+
+.recipe-list {
+    list-style: none;
+}
+
+
+ul {
+    display: flex;
+}
+
+ul li {
+    list-style: none;
+}
