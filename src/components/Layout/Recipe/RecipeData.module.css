@@ -1,3 +1,7 @@
-img {
-    width: 40%;
+data img  {
+    width: 100px;
+    height: 100px;
+    background-size: cover;
 }
+
+

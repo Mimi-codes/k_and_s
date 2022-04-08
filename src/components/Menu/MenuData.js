@@ -1,8 +1,7 @@
-import classes from './RecipeData.module.css';
+import classes from './MenuData.module.css';
 
 const data = [
-
-    {id: 'm1', name: 'CUPCAKES', description: 'Yummy', price: 800, img: require('../../../assets/cupcake.jpg')},
+    {id: 'm1', name: 'CUPCAKES', description: 'Yummy', price: 800, img: require('../../../assets/cupcake.jpg') },
     {id: 'm2', name: 'MEATPIE', description: 'Yummy', price: 800, img: require('../../../assets/meatpie.jpg')},
     {id: 'm3', name: 'CAKE LOAF', description: 'Yummy', price: 800, img: require('../../../assets/cakeloaf.jpg')},
     {id: 'm4', name: 'CAKEROLL', description: 'Yummy', price: 800, img: require('../../../assets/download.jpg')},
@@ -13,5 +12,4 @@ const data = [
     {id: 'm9', name: 'SMALL CHOPS', description: 'Yummy', price: 800, img: require('../../../assets/smallchops.png')},
 ]
 
-
-export default data; //rendered in AvailableItems.js
+export default data; //rendered in Menu.js

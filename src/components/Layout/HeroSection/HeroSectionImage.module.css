@@ -1,5 +1,6 @@
-.cake-img {
+ .cake-img {
     margin-right: 3rem;
+    max-width: 100;
 }
 
 /*MEDIA QUERY*/

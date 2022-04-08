@@ -10,7 +10,7 @@ const About = () => {
         <div className={classes['about-text']}>
             <hr className={classes.hr}></hr>
             <p className={classes['about-para']}>welcome</p>
-            <h2 className={classes['about-text-header']}>About K $ S Tastee Treats </h2>
+            <h2 className={classes['about-text-header']}>About K & S Tastee Treats </h2>
         <p className={classes['about-text-para']}>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.
         Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.
         Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.

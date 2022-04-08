@@ -1,0 +1,34 @@
+.menu-nav {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.menu-nav a {
+    text-decoration: none;
+    color: rgb(73, 73, 73);
+}
+
+
+
+.menu-nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+.menu-nav ul li:nth-child(1) {
+    margin-left: 35rem;
+}
+
+.menu-nav ul li {
+    margin-right: 1.5rem;
+    background: rgb(231, 231, 231);
+    text-transform: uppercase;
+    padding: 0.5rem 1rem;
+}
+
+.menu-nav ul li:hover,
+.menu-nav ul li.active {
+    padding-bottom: 0.25rem;
+    border-bottom: 4px solid rgb(223, 92, 112);
+    text-decoration: none;
+    background: rgb(235, 194, 200);
+}
