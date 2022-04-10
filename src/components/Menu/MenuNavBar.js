@@ -11,7 +11,7 @@ const MenuNavBar = () => {
                 <li><NavLink activeClassName={classes.active} to="/cakes">cakes</NavLink></li>
                 <li><NavLink activeClassName={classes.active} to='/chin-chin'>chin-chin</NavLink></li>
                 <li><NavLink activeClassName={classes.active} to='/donut'>donut</NavLink></li>
-                <li><NavLink activeClassName={classes.active} to='/meatpie'>meatpie</NavLink></li>
+                <li><NavLink activeClassName={classes.active} to='/pies'>meatpie</NavLink></li>
                 <li><NavLink activeClassName={classes.active} to='/drinks'>drinks</NavLink></li>         
                   </ul>
         </div>

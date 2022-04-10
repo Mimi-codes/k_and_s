@@ -1,12 +1,12 @@
-import classes from './Meatpie.module.css';
-import data from './MeatpieData';
+import classes from './Donut.module.css';
+import data from './DonutData';
 import Card from 'react-bootstrap/Card';
 
 
-const Meatpie = () => {
+const Donut = () => {
     return (
         <>
-            <div className={classes['pie-items']}>                
+            <div className={classes['donut-items']}>                
 {data.map(({ id, img, name, description, price}) => (
     <Card key={id}  className={classes.card}>
    
@@ -26,4 +26,4 @@ const Meatpie = () => {
     )
 }
 
-export default Meatpie; //rendered in App.js
+export default Donut; //rendered in App.js

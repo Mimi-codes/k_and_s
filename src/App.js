@@ -4,10 +4,11 @@ import About from './components/Layout/About/About';
 import HeroSection from './components/Layout/HeroSection/HeroSection';
 import Recipe from './components/Layout/Recipe/Recipe';
 import Menu from './components/Menu/Menu';
-import {Route} from 'react-router-dom';
-import Cakes from './Pages/Cakes';
+import {Route, Routes} from 'react-router-dom';
 import MenuNavBar from './components/Menu/MenuNavBar';
-
+import Cakes from './Pages/Cakes';
+import Meatpie from './Pages/Meatpie';
+import ChinChin from './Pages/ChinChin';
 
 function App() {
   return (
@@ -18,11 +19,14 @@ function App() {
     <Menu />
     <div>
     <MenuNavBar />
-    <main>
-    {/* <Route path='/cakes'> */}
-      {/* <Cakes /> */}
-      {/* </Route> */}
-    </main>
+    <Routes>
+    <Route path='/cakes' element ={<Cakes />} />
+<Route path='/pies' element = {<Meatpie/>} /> 
+<Route path='/chin-chin' element = {<ChinChin />} /> 
+    </Routes>
+
+
+    
     </div>
     </>
   );

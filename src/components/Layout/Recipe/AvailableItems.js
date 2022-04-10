@@ -5,16 +5,14 @@ import Card from 'react-bootstrap/Card';
 
 
 
-
 const AvailableItems = () => {   
       
     return (
             <div className={classes['recipe-items']}>                
 {data.map(({ id, img, name, description, price}) => (
-    <Card style={{ width: '18rem' }} className={classes.card}>
-    <ul>
-    <li key={id}>
-            <Card.Img variant="top" src = {img} alt = {name} className={classes['img-holder']} />
+    <Card key={id}  className={classes.card}>
+   
+            <Card.Img  className={classes["card-image"]} variant="top" src = {img} alt = {name} />
             <Card.Body className={classes.body}>
     <Card.Title>#{price}</Card.Title>
     <Card.Text>
@@ -22,8 +20,7 @@ const AvailableItems = () => {
         <p>{description}</p>
     </Card.Text>
   </Card.Body>
-    </li>
-    </ul>
+  
     </Card>
 ))}
             </div>
