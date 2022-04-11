@@ -1,6 +1,8 @@
 // import AvailableMeals from './AvailableMeals';
 import AvailableItems from './AvailableItems';
 import classes from './Recipe.module.css';
+import RecipeCarousel from './RecipeCarousel';
+
 
 const Recipe = () => {
     return (
@@ -12,8 +14,7 @@ const Recipe = () => {
             <p className={classes['recipe-text-para']}>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.
         Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.
         </p>
- 
- <AvailableItems />
+<RecipeCarousel /> 
         </div>
         </>
     )
