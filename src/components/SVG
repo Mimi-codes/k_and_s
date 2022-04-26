@@ -12,3 +12,130 @@ Date: MdOutlineDateRange
 Message: AiFillMessage
 Time: WiTime8
 Line: AiOutlineMinus
+
+const data = [
+
+    {id: 'm1', name: 'CUPCAKES', description: 'Yummy', price: 800, img: require('../../../assets/cupcake.jpg')},
+    {id: 'm2', name: 'MEATPIE', description: 'Yummy', price: 800, img: require('../../../assets/meatpie.jpg')},
+    {id: 'm3', name: 'CAKE LOAF', description: 'Yummy', price: 800, img: require('../../../assets/cakeloaf.jpg')},
+    {id: 'm4', name: 'CAKEROLL', description: 'Yummy', price: 800, img: require('../../../assets/download.jpg')},
+    {id: 'm5', name: 'GLAZED DONUT', description: 'Yummy', price: 800, img: require('../../../assets/glazed doughnut.jpg')},
+    {id: 'm6', name: 'CHIN CHIN', description: 'Yummy', price: 800, img: require('../../../assets/chin-chin-.jpg')},
+    {id: 'm7', name: 'CAKE PARFAIT', description: 'Yummy', price: 800, img: require('../../../assets/cakeparfait.jpg')},
+    {id: 'm8', name: 'DRINKS', description: 'Yummy', price: 800, img: require('../../../assets/zobo.jpg')},
+    {id: 'm9', name: 'SMALL CHOPS', description: 'Yummy', price: 800, img: require('../../../assets/smallchops.png')},
+]
+
+<div className={classes['cake-items']}>  
+<Slider {...settings}>
+{data.map(({ id, img, name, description, price}) => (
+    <Card key={id}  className={classes.card}>
+   
+            <Card.Img  className={classes["card-image"]} variant="top" src = {img} alt = {name} />
+            <Card.Body className={classes.body}>
+    <Card.Title>#{price}</Card.Title>
+    <Card.Text>
+    <p>{name}</p>
+        <p>{description}</p>
+    </Card.Text>
+  </Card.Body>
+    </Card>
+))}
+          </Slider>
+          </div>
+
+
+          /*
+.recipe-items {
+    display: flex;
+}
+
+.body {
+    background: rgb(255, 254, 254);
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.body:hover {
+box-shadow: 2px 8px 8px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* .img-holder { */
+    /* width: 50%; */
+/* } */
+
+/*
+.card {
+    max-width: 65%;
+    height: 400px;
+}
+
+
+
+.card-image {
+    width:  280px;
+    height: 300px;
+    object-fit: cover;
+    text-align: center;
+}
+
+.btn {
+    border: 0% solid gray ;
+}
+*/
+
+
+
+.recipe-items {
+    display: flex;
+}
+
+
+
+
+.body:hover {
+    box-shadow: 2px 8px 8px 2px rgba(0, 0, 0, 0.2);
+    }
+    
+    .img-holder {
+        width: 100%;
+    }
+    .container {
+    }
+
+    .card {
+        max-width: 100%;
+        height: 400px;
+        margin-top: 1.5rem;
+        overflow-x: hidden;
+        margin-right: 2rem;
+    }
+    
+    .card-image {
+        width:  100%;
+        height: 200px;
+        object-fit: cover;
+        text-align: center;
+    }
+
+    .body {
+        width: 100%;
+        text-align: center;
+    }
+
+    .body:nth-child(1) {
+        margin-left: 7rem;
+    }
+    
+
+    .slick-slide > div {
+        margin: 0 10px;
+    }
+
+    .slick-list {
+        margin: 0 -10px;
+    }

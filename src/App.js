@@ -11,11 +11,27 @@ import ChinChin from './Pages/ChinChin';
 import Donut from './Pages/Donut';
 import MenuNavBar from './components/Layout/Menu/MenuNavBar';
 import Drinks from './Pages/Drinks';
-
+import { useState } from 'react';
+import Cart from './components/Cart/Cart';
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+  integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+  crossorigin="anonymous"
+/>
 function App() {
+  const [cartIsShown, setCartIsShown] = useState(false);
+  const showCartHandler = () => {
+    setCartIsShown (true);
+  }
+
+  const hideCartHandler = () => {
+    setCartIsShown (false);
+  }
   return (
     <>
-    <HeroSection />
+    <HeroSection onShowCart ={showCartHandler}/>
+   {cartIsShown && <Cart />}
     <About />
     <Recipe />
     <Menu />
