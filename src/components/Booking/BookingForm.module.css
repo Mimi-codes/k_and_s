@@ -9,10 +9,17 @@
 
 .row-one input {
     width: 15rem;
-    padding: 0.5rem 0;
-    text-align: center;
-    margin-right: 2rem;
+    padding: 0.7rem 0.1rem 0.7rem 1rem;
+    /* text-align: center; */
+    margin-right: 1rem;
     border-style: none;
+    margin-left: 1.5rem;
+}
+
+
+.row-one p, .row-two p, .row-three p {
+    font-size: 0.8rem;
+    color: red;
 }
 
 .row-two {
@@ -20,11 +27,22 @@
 }
 
 .row-two input {
+    margin-top: 1.5rem;
     width: 15rem;
-    padding: 0.5rem 0;
-    text-align: center;
-    margin-right: 2rem;
+    padding: 0.7rem 0.2rem 0.7rem 1rem;
+    /* text-align: center; */
+    margin-right: 1rem;
     border-style: none;
+    margin-left: 1.5rem;
+}
+
+.row-three input {
+    width: 52.5rem;
+    padding: 1rem 0.1rem 4rem 1rem;
+    /* text-align: center; */
+    margin-left: 1.5rem;
+    border-style: none;
+    margin-top: 1.5rem;
 }
 
 .booking-btn {
@@ -35,17 +53,43 @@
     border-style: none;
     /* margin-top: 7rem; */
     position: absolute;
-    margin-left: 42rem;
+    margin-left: 18rem;
     /* bottom: -189rem; */
     margin-bottom: 8rem;
+    margin-top: 1.5rem;
 }
 
 
 .arrow {
+    margin-top: 1.5rem;
     font-size: 1.2rem;
     background: rgb(247, 224, 202);
     padding: 1.3rem;
     position: absolute;
     /* bottom: -181rem; */
-    margin-left: 53.4rem;
+    margin-left: 29.5rem;
+}
+
+.icon {
+    position: absolute;
+    right: 62.5rem;
+    margin-top: 0.7rem;
+}
+
+.icon1 {
+    position: absolute;
+    right: 44rem;
+    margin-top: 0.7rem;
+}
+
+.icon2 {
+    position: absolute;
+    right: 25.4rem;
+    margin-top: 0.7rem;
+}
+
+.icon3 {
+    position: absolute;
+    right: 25.2rem;
+    margin-top: 2.1rem;
 }

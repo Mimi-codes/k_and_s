@@ -4,6 +4,7 @@ import FooterExplore from './FooterExplore';
 import FooterNewsletter from './FooterNewsletter';
 import FooterSitemap from './FooterSitemap';
 import  { HiOutlineMinusSm } from 'react-icons/hi';
+import { CgCopyright } from 'react-icons/cg';
 
 
 
@@ -19,7 +20,7 @@ const Footer = () => {
     <FooterNewsletter />
     </div>
     <div className={classes.copyright}>
-    <p>c K & S TASTEE TREATS 2022. All rights reserved.</p>
+    < CgCopyright className={classes.icon}/>  <p>K & S TASTEE TREATS 2022. All rights reserved.</p>
     <ul> 
         <li><a href=''>WhatsApp</a></li>
     -

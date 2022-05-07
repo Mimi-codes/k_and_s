@@ -1,6 +1,7 @@
 .newsletter {
     margin-left: 15rem;
     margin-right: 5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .newsletter p:nth-child(2) {
@@ -10,3 +11,14 @@
     margin-top: 1.5rem;
 }
 
+.newsletter input {
+    border-style: none;
+    padding: 1.5rem;
+    width: 23rem;
+}
+
+.arrow {
+    position: absolute;
+    right: 15rem;
+    margin-top: 1.5rem;
+}
