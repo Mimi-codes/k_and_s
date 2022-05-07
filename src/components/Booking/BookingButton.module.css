@@ -1,0 +1,22 @@
+.booking-btn {
+    text-transform: uppercase;
+    padding: 1.5rem;
+    color: white;
+    background: rgb(131, 44, 4);
+    border-style: none;
+    margin-top: 7rem;
+    position: absolute;
+    margin-left: 42rem;
+    bottom: -189rem;
+    margin-bottom: 8rem;
+}
+
+
+.arrow {
+    font-size: 1.2rem;
+    background: rgb(247, 224, 202);
+    padding: 1.3rem;
+    position: absolute;
+    bottom: -181rem;
+    margin-left: 53.4rem;
+}

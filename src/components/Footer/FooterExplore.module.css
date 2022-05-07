@@ -1,0 +1,21 @@
+.explore-links {
+    margin-left: 5rem;
+}
+
+.explore-links h4{
+margin-left: 3rem;
+text-transform: capitalize;
+}
+
+.explore-links ul {
+    margin-left: 0.6rem;
+    margin-top: 1.3rem;
+}
+
+.explore-links li {
+    margin-top: 1rem;
+}
+
+.explore-links ul li a {
+    color: gray;
+}

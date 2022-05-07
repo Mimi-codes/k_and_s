@@ -1,0 +1,12 @@
+.newsletter {
+    margin-left: 15rem;
+    margin-right: 5rem;
+}
+
+.newsletter p:nth-child(2) {
+    color: gray;
+    margin-right: 5rem;
+    font-size: 1rem;
+    margin-top: 1.5rem;
+}
+

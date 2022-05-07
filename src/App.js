@@ -11,8 +11,14 @@ import ChinChin from './Pages/ChinChin';
 import Donut from './Pages/Donut';
 import MenuNavBar from './components/Layout/Menu/MenuNavBar';
 import Drinks from './Pages/Drinks';
-import { useState } from 'react';
 import Cart from './components/Cart/Cart';
+import NavBar from './components/Layout/NavBar/NavBar';
+import { useState } from 'react';
+import Testimonial from './components/Testimonial/Testimonial';
+import Booking from './components/Booking/Booking';
+import Footer from './components/Footer/Footer';
+// import Cart from './components/Cart/Cart';
+
 <link
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
@@ -21,17 +27,18 @@ import Cart from './components/Cart/Cart';
 />
 function App() {
   const [cartIsShown, setCartIsShown] = useState(false);
-  const showCartHandler = () => {
-    setCartIsShown (true);
-  }
-
-  const hideCartHandler = () => {
-    setCartIsShown (false);
-  }
+    const showCartHandler = () => {
+      setCartIsShown (true);
+    }
+    
+    const hideCartHandler = () => {
+      setCartIsShown (false);
+    }
   return (
     <>
-    <HeroSection onShowCart ={showCartHandler}/>
-   {cartIsShown && <Cart />}
+    <HeroSection  onShowCart = {showCartHandler} />
+
+    {cartIsShown && <Cart /> }
     <About />
     <Recipe />
     <Menu />
@@ -44,10 +51,11 @@ function App() {
 <Route path='/donut' element = {<Donut />} /> 
 <Route path='/drinks' element = {<Drinks />} /> 
     </Routes>
-
-
-    
     </div>
+<Testimonial />
+<Booking />
+<Footer />
+
     </>
   );
 }

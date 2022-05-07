@@ -2,8 +2,13 @@ import classes from './NavBar.module.css';
 import {AiOutlineUser} from 'react-icons/ai'
  import {BsHandbag} from 'react-icons/bs'
 import Badge from '../NavBar/Badge';
+import Cart from '../../Cart/Cart';
+import NavBarCartButton from '../NavBar/NavBarCartButton';
+// import Cart from '../../Cart/Cart';
 
-const NavBar = () => {
+
+
+const NavBar = (props) => {
 const svgStyle = {fontSize: '1.3rem'}
 
     return (
@@ -18,10 +23,10 @@ const svgStyle = {fontSize: '1.3rem'}
     <li><a href=''>contact</a></li>
     <li><a href=''><AiOutlineUser style = {svgStyle}/></a></li>
     <li><a href=''>my account</a></li>
-    <li><a href=''><BsHandbag  style = {svgStyle}/><Badge /></a></li>
-    <li><a href=''>cart</a></li>
+    <NavBarCartButton onClick = {props.onShowCart} />
+    {/* <li><Cart /></li> */}
+  
 </ul>
-
 </div>
 </>
     )

@@ -1,4 +1,4 @@
-
+import React from 'react'
 import classes from './RecipeCarousel.module.css';
 import AvailableItems from './AvailableItems';
 // import data from '../Recipe/RecipeData';
@@ -7,9 +7,9 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
 //react bootstrap
-import Card from 'react-bootstrap/Card'
+import Card from 'react-bootstrap/Card';
 <link
-  rel="stylesheet"
+ rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
   integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
   crossorigin="anonymous"
@@ -41,8 +41,7 @@ function RecipeCarousel() {
     slidesToShow: 3,
     slidesToScroll: 1
   };
-  return (
-    <>
+  return  <>
     <Slider {...settings}>
                   
 {data.map(({ id, img, name, description, price}) => (
@@ -62,7 +61,7 @@ function RecipeCarousel() {
        
        </Slider>
   </>
-  )
+  
 }
 
 

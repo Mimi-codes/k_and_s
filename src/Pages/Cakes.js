@@ -3,6 +3,8 @@ import data from './CakesData';
 import Card from 'react-bootstrap/Card';
 
 
+
+
 const Cakes = () => {
     return (
         <>
@@ -16,7 +18,9 @@ const Cakes = () => {
     <Card.Text>
     <p>{name}</p>
         <p>{description}</p>
+    <button type='submit' className={classes.btn}>Add to Cart</button>
     </Card.Text>
+
   </Card.Body>
   
     </Card>

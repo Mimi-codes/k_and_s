@@ -9,20 +9,13 @@ const cartItems = <ul> {[
 )}
     </ul>
 return (
+       
     <Modal>
-        {cartItems}
-        <div>
-            <span>Total Amount</span>
-            <span>35.62</span>
-        </div>
-        <div className={classes.actions}>
-            <button>Close</button>
-            <button>Order</button>
-        </div>
+      {cartItems}
         </Modal>
 )
 
 }
 
 
-export default Cart; //rendered in App.js
+export default Cart; //rendered in NavBar.js

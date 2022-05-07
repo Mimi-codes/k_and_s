@@ -16,6 +16,7 @@ const Donut = () => {
     <Card.Text>
     <p>{name}</p>
         <p>{description}</p>
+  <button type='submit' className={classes.btn}>Add to Cart</button>
     </Card.Text>
   </Card.Body>
   

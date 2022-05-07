@@ -4,12 +4,16 @@ import HeroSectionCarousel from './HeroSectionCarousel';
 import HeroSectionImage from '././HeroSectionImage';
 import HeroSectionSvg from './HeroSectionSvg';
 import NavBar from '../NavBar/NavBar';
-
+import { useState } from 'react';
+import Cart from '../../Cart/Cart'
 
 const HeroSection = () => {
+   
+
     return (
         <>
         <div className={classes.hero}>
+       
         <NavBar />
         {/* <HeroSectionCarousel /> */}
 <div className={classes['hero-content']}>
@@ -26,4 +30,4 @@ const HeroSection = () => {
     )
 }
 
-export default HeroSection; //exported in App.js
+export default HeroSection; //rendered in App.js

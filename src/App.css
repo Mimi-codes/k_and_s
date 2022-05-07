@@ -5,14 +5,8 @@ body {
   background-image: url('../src/assets/sincerely-media-56pMIREBAcg-unsplash.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: 'Antic Slab', serif;
-font-family: 'Atma', cursive;
-font-family: 'Cookie', cursive;
-font-family: 'Lobster Two', cursive;
-font-family: 'Montserrat', sans-serif;
-font-family: 'Roboto', sans-serif;
-font-family: 'Shadows Into Light', cursive;
-font-family: 'Short Stack', cursive;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+margin: 0;
 }
 
 

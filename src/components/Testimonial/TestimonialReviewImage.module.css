@@ -1,0 +1,29 @@
+.img {
+    border-radius: 50%;
+    width: 12%;
+    height: 10%;
+    margin-left: 3rem;
+    margin-top: 2rem;
+}
+
+.review-image {
+    display: flex;
+}
+
+.text {
+    display: block;
+}
+
+.text h4 {
+    margin-top: 3rem;
+    margin-left: 1.4rem;
+    text-transform: capitalize;
+}
+
+.text p {
+    font-size: 1rem;
+    position: absolute;
+    bottom: -136rem;
+    color: gray;
+    right: 20rem;
+}
