@@ -36,8 +36,9 @@
 
 
     .hero-content {
+        margin-top: 7rem;
         display: block;
-        margin-top: -2rem;
+        /* margin-top: -2rem; */
     }
 
     .brand-description {
@@ -46,10 +47,9 @@
     }
 
     .brand-description-paragraph {
-        margin-left:0.5rem;
-        margin-right: 0.5rem;
+        margin: 0 1.7rem;
         text-align: center;
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
 
     .perfect {

@@ -20,7 +20,7 @@ const HeroSection = () => {
     <div className={classes['brand-description']}>
     <h2 className={classes.perfect}>The perfect cake every time!</h2>
     <p className={classes['brand-description-paragraph']}>We are a company dedicated to the preparation of cakes, providing our customers with a product always fresh, yummy and tasty.</p>
-<HeroSectionButton />
+{/* <HeroSectionButton /> */}
 </div>
 <HeroSectionImage />
 </div>

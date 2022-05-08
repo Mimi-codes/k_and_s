@@ -9,7 +9,6 @@ import NavBarCartButton from '../NavBar/NavBarCartButton';
 
 
 const NavBar = (props) => {
-const svgStyle = {fontSize: '1.3rem'}
 
     return (
 <>
@@ -21,7 +20,7 @@ const svgStyle = {fontSize: '1.3rem'}
     <li><a href=''>reservations</a></li>
     <li><a href=''>order</a></li>
     <li><a href=''>contact</a></li>
-    <li><a href=''><AiOutlineUser style = {svgStyle}/></a></li>
+    <li><a href=''><AiOutlineUser className={classes.user}/></a></li>
     <li><a href=''>my account</a></li>
     <NavBarCartButton onClick = {props.onShowCart} />
     {/* <li><Cart /></li> */}

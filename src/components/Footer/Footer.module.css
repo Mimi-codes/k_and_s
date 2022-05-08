@@ -42,3 +42,16 @@
     margin-right: 0.2rem;
     margin-top: 1.1rem;
 }
+
+/*MEDIA QUERY*/
+
+/*Mobile*/
+
+@media only screen and (max-width: 480px) {
+    .text h2 {
+        margin-left: 0rem;
+        text-align: center;
+        font-size: 1.4rem;
+        position: absolute;
+        bottom: 0;    }
+}

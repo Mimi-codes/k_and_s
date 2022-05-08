@@ -11,8 +11,7 @@ const Menu = () => {
             <p className={classes['menu-para']}>see</p>
             <h2 className={classes['menu-text-header']}>our menu </h2> 
         </div>
-        {/* <MenuNavBar /> */}
-        <MenuAvailableItems />
+    
         </>
     )
 }

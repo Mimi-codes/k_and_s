@@ -93,3 +93,81 @@
     right: 25.2rem;
     margin-top: 2.1rem;
 }
+
+
+/*MEDIA QUERY*/
+
+/*Mobile*/
+
+@media only screen and (max-width: 480px) {
+    .form {
+        margin: 1rem 1.3rem;
+    }
+
+    .row-one input {
+        width: 6.8rem;
+        margin-right: 0.6rem;
+        margin-left: 0rem;
+    }
+ 
+    .row-two {
+        display: flex;
+    }
+    
+    .row-two input {
+        width: 6.8rem;
+        margin-right: 0.6rem;
+        margin-left: 0rem;
+    }
+    
+    .row-three input {
+        width: 24rem;
+        margin-left: 0;
+    }
+    
+
+
+.booking-btn {
+    text-transform: uppercase;
+    padding: 1.5rem;
+    color: white;
+    background: rgb(131, 44, 4);
+    border-style: none;
+    /* margin-top: 7rem; */
+    position: absolute;
+    margin-left: 18rem;
+    /* bottom: -189rem; */
+    margin-bottom: 8rem;
+    margin-top: 1.5rem;
+    display: none;
+}
+
+
+.arrow {
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+    background: rgb(247, 224, 202);
+    padding: 1.3rem;
+    position: absolute;
+    /* bottom: -181rem; */
+    margin-left: 29.5rem;
+
+display: none;}
+
+
+    .icon {
+        right: 18.7rem;
+    }
+    
+    .icon1 {
+        right: 10rem;
+    }
+    
+    .icon2 {
+        right: 1.1rem;
+    }
+    
+    .icon3 {
+        right: 1.1rem;
+    }
+}

@@ -38,3 +38,15 @@ box-shadow: 2px 8px 8px 2px rgba(0, 0, 0, 0.2);
     object-fit: cover;
     text-align: center;
 }
+
+
+/*MEDIA QUERY*/
+
+/*Mobile*/
+
+@media only screen and (max-width: 480px) {
+    .recipe-items {
+        display: flex;
+        display: none;
+    }
+}

@@ -41,7 +41,9 @@ margin-top: 0.8rem;
     margin-left: 0.8rem;
 }
 
-
+.user {
+    font-size: 1.3rem;
+}
 
 /*MEDIA QUERY*/
 
@@ -50,18 +52,23 @@ margin-top: 0.8rem;
 @media only screen and (max-width: 480px) {
     .nav {
         display: block;
-        margin-top: 0;
-    }
+        margin: 0;
+        max-width: 100vw;
+        /* padding-bottom: 35rem; */
+       }
     
     .nav-links {
         display: block;
         text-align: center;
+        margin: 0;
     }
     
     .brand {
         text-transform: uppercase;
-        font-size: 1rem;
+        font-size: 1.4rem;
         text-align: center;
+        margin-left: 0;
+        margin-right: 0;
         margin-top: 0;
         padding-top: 2rem;
     }
@@ -72,45 +79,43 @@ margin-top: 0.8rem;
     margin-top: 0.8rem;
     text-align: center;
     margin-left: 0;
-    margin-right: 3rem;
+    margin-right: 2.2rem;
+    font-size: 1.2rem;
     }
     
     .nav-links li a {
         text-decoration: none;
         color: black;
-        font-size: 0.8rem;
+        font-size: 1rem;
+
     }
 
     .nav-links li:nth-last-child(4){
         margin-left: 0;
-        margin-right: 0;
-        position: relative;
-        right: 4.5rem;
+        margin-right: 2.1rem;
     }
     
     .nav-links li:nth-last-child(3) {
-        margin-left: 0.8rem;
-        position: relative;
-        bottom: 2.5rem;
+       margin-right: 0rem;
     }
 
 
     .nav-links li:nth-last-child(2){
         margin-left: 0;
-        margin-right: 0;
-        position: relative;
-        right: 3.5rem;
-        bottom: 2.5rem;
+        margin-right: 2.1rem;
     }
 
     
     .nav-links li:nth-last-child(1) {
-        margin-right: 3rem;
-        margin-left: 0.8rem;
-        position: relative;
-        bottom: 4.9rem;
-        right: 0.4rem;
+       margin-top: 12rem;
+       margin-right: 6.1rem;
+       margin-left: 0;
     }
     
+    .user {
+        position: absolute;
+        top: 0.5rem;
+        left: 3rem;
+    }
 
 }

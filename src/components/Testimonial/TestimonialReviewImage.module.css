@@ -27,3 +27,26 @@
     color: gray;
     right: 20rem;
 }
+
+
+/*MEDIA QUERY*/
+
+/*Mobile*/
+
+@media only screen and (max-width: 480px) {
+    .img {
+        margin: 1rem 0 0 3rem;
+    }
+
+    .text h4 {
+     margin: 1.1rem 0 0 1.4rem;
+         }
+
+         .text p {
+            position: absolute;
+            bottom: -83.5rem;
+            right: 2.5rem;
+            font-size: 0.7rem;
+            margin-right: 1.5rem;
+        }
+}

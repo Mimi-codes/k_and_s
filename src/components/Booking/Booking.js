@@ -13,7 +13,7 @@ const Booking = () => {
     <p>K & S Tastee Treats opened its first location on lorem ipsum dolor sit amet.</p>
 
     <BookingForm />
-{/* <BookingButton /> */}
+<BookingButton />
     </div>
     </>
 }

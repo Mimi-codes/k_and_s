@@ -33,3 +33,34 @@
     background: rgb(235, 194, 200);
 }
 
+
+
+
+/*MEDIA QUERY*/
+
+/*Mobile*/
+
+@media only screen and (max-width: 480px) {
+
+
+
+.menu-nav ul li:nth-child(1) {
+    margin-left: 0rem;
+}
+
+.menu-nav a {
+font-size: 0.7rem;
+}
+
+.menu-nav ul li {
+    margin-right: 0.6rem;
+    padding: 0.5rem 0.5rem 0.5rem;
+    margin-left: 0;
+}
+
+.menu-nav ul li:nth-last-child(1) {
+    margin-right: 1.9rem;
+}
+
+
+}

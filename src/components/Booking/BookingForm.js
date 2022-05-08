@@ -33,7 +33,7 @@ function BookingForm() {
     {errors.email && <p>Please enter a valid email address!</p>}
     </Form.Field>
     <Form.Field>
-     <BsTelephoneFill className={classes.icon2}/><input placeholder='Phone Number' type='number' {...register('phoneNumber', {required: true, maxLength: 11, pattern: /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,15}$/})} />
+     <BsTelephoneFill className={classes.icon2}/><input placeholder='Phone ' type='number' {...register('phoneNumber', {required: true, maxLength: 11, pattern: /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,15}$/})} />
    {errors.phoneNumber && <p>Please enter a valid phone number!</p>}
     </Form.Field>
 </div>

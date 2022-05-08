@@ -36,3 +36,36 @@
     font-size: 2rem;
     margin-left: 29rem;
 }
+
+/*MEDIA QUERY*/
+
+/*Mobile*/
+
+@media only screen and (max-width: 480px) {
+
+
+
+    .customers p {
+        font-size: 1rem;
+        text-align: center;
+        margin-right: 1.5rem;
+    }
+
+    .customers h2 {
+        font-size: 1.4rem;
+        text-align: center;
+    }
+    
+    .customers p.text {
+        font-size: 1rem;
+        text-align: center;
+        margin: 0 1.7rem;
+    }
+
+    .arrow {
+        position: absolute;
+        bottom: -68rem;
+        font-size: 2rem;
+        margin-left: 21rem;
+    }
+}

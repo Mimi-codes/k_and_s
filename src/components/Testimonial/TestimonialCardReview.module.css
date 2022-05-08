@@ -8,10 +8,34 @@
    margin-left: 10rem;
    margin-right: 14rem;
    }
-.card p {
+
+   .card p {
     font-size: 1.3rem;
     margin-left: 3rem;
     margin-right: 3rem;
     padding-top: 3rem;
     padding-bottom: 1rem;
 }
+
+
+/*MEDIA QUERY*/
+
+/*Mobile*/
+
+@media only screen and (max-width: 480px) {
+
+    .card {
+        /* padding: 1rem; */
+       height: 16rem;
+       margin: 4rem 2rem 0 2rem;
+       }
+
+
+       .card p {
+        font-size: 1rem;
+        margin: 0 0.8rem;
+        padding-top: 1.5rem;
+        /* padding-bottom: 1rem; */
+    }
+    
+    }

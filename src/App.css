@@ -10,3 +10,16 @@ margin: 0;
 }
 
 
+
+/*MEDIA QUERY*/
+
+/*Mobile*/
+
+@media only screen and (max-width: 480px) {
+ body {
+ background-image: url('../src/assets/sincerely-media-56pMIREBAcg-unsplash.jpg');
+   background-repeat: no-repeat;
+   background-size:auto;
+ }
+}
+

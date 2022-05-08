@@ -20,7 +20,7 @@ Lorem ipsum dolor sit amet.
 <MdKeyboardArrowRight />
 </div>
 
-<img src= {img1} className = {classes.img} alt = 'reviewImg' />
+{/* <img src= {img1} className = {classes.img} alt = 'reviewImg' /> */}
     </div>
     </>
 }

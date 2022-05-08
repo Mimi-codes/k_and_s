@@ -27,3 +27,27 @@ margin-left: 6rem;
     font-size: 3rem;
     color: rgb(85, 30, 4);
 }
+
+
+/*MEDIA QUERY*/
+
+/*Mobile*/
+
+@media only screen and (max-width: 480px) {
+.menu {
+    margin-left: 5rem;
+}
+
+.menu-para {
+    font-size: 1rem;
+    margin-left: 7rem;
+    margin-top: 3.5rem;
+}
+
+
+.menu-text-header {
+    font-size: 1.4rem;
+    text-align: center;
+    margin-right: 5.5rem;
+}
+}

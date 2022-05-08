@@ -38,3 +38,32 @@
     margin-right: 58rem;
 }
 
+/*MEDIA QUERY*/
+
+/*Mobile*/
+
+@media only screen and (max-width: 480px) {
+.recipe {
+    margin-top: 30rem;
+    margin-left: 0;
+}
+
+    .recipe-para{
+    margin-left: 4rem;
+    margin-right: 4rem;
+    text-align: center;    
+     margin-top: 1rem;
+     font-size: 1rem;
+}
+
+.recipe-text-header {
+    font-size: 1.4rem;
+    margin-right: 5rem;
+    margin-left: 7rem;
+}
+
+.recipe-text-para {
+    font-size: 1rem;
+    margin: 0 1.7rem;
+}
+}

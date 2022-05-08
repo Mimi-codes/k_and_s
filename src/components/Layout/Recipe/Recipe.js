@@ -14,7 +14,7 @@ const Recipe = () => {
             <p className={classes['recipe-text-para']}>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.
         Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.
         </p>
-<RecipeCarousel /> 
+{/* <RecipeCarousel />  */}
         </div>
         </>
     )
