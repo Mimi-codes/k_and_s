@@ -20,3 +20,15 @@ text-transform: capitalize;
 .explore-links ul li a {
     color: gray;
 }
+
+/*MEDIA QUERY*/
+
+/*Mobile*/
+
+@media only screen and (max-width: 480px) {
+    .explore-links {
+        margin-left: 12rem;
+    position: absolute;
+    bottom: -150.9rem;
+}
+}

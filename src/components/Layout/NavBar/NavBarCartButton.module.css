@@ -4,3 +4,15 @@
     background: none;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
+
+    /*MEDIA QUERY*/
+
+/*Mobile*/
+
+@media only screen and (max-width: 480px) {
+    .btn {
+        margin-top: 0.8rem;
+        margin-right: 2.5rem;
+        font-size: 1.1rem;
+    }
+}

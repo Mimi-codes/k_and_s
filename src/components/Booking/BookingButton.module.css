@@ -29,8 +29,7 @@
 
 @media only screen and (max-width: 480px) {
     .booking-btn {
-        
-        margin-top: 7rem;
+        margin-top: 8rem;
         margin-left: 8rem;
         bottom: -129rem;
     }

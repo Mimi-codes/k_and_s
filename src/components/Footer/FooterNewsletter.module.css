@@ -22,3 +22,24 @@
     right: 15rem;
     margin-top: 1.5rem;
 }
+
+
+/*MEDIA QUERY*/
+
+/*Mobile*/
+
+@media only screen and (max-width: 480px) {
+    .newsletter {
+        margin: 0 2rem;
+        position: absolute;
+        bottom: -136rem;
+     }
+  
+     .newsletter input {
+        width: 19rem;
+    }
+  
+    .arrow {
+        display: none;
+    }
+}
